@@ -594,13 +594,13 @@ module.exports = async(xinz, msg, smsg, blocked, _afk, welcome) => {
                 let qqppp = [{
                     "buttonId": `${prefix}allmenu`,
                     "buttonText": {
-                        "displayText": "COMMAND"
+                        "displayText": "🌷COMMAND"
                     },
                     "type": "RESPONSE"
                 },{
                     "buttonId": `${prefix}rules`,
                     "buttonText": {
-                        "displayText": "RULES"
+                        "displayText": "📝RULES"
                     },
                     "type": "RESPONSE"
                 }]
@@ -3690,9 +3690,6 @@ Alert!!! : ${res.desc}`))
                 xinz.sendButtons(from, `Hai Kak @${sender.split('@')[0]}`, `Itu Nomer Ownerku, Mau tau soal apa ya?`, `Jangan Sungkan Chat Ya Kak`, qqpp, false, res, [sender])
                 })
                 }
-                break
-            case prefix+'sourcecode': case prefix+'sc': case prefix+'src':
-                textImg(`Bot ini menggunakan sc : https://github.com/rashidsiregar28/chika-bot`)
                 break
             case prefix+'donate':
             case prefix+'donasi':
